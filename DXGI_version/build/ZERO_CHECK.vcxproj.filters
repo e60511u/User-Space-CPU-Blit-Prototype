@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Elève\Downloads\Projet\User-Space CPU Blit Prototype\DXGI_version\build\CMakeFiles\d55609238d9df685967e8b304040be74\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D292B7D2-7C45-3493-9B34-A4EC137B75F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

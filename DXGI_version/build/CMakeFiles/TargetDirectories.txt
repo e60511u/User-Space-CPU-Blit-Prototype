@@ -1,0 +1,3 @@
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build/CMakeFiles/DesktopCapture.dir
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build/CMakeFiles/ZERO_CHECK.dir

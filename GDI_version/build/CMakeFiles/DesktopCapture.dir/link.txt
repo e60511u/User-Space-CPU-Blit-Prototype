@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\DesktopCapture.dir/objects.a
+C:\EduPython\MinGW\bin\ar.exe qc CMakeFiles\DesktopCapture.dir/objects.a @CMakeFiles\DesktopCapture.dir\objects1.rsp
+C:\EduPython\MinGW\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\DesktopCapture.dir/objects.a -Wl,--no-whole-archive -o bin\DesktopCapture.exe -Wl,--out-implib,libDesktopCapture.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DesktopCapture.dir\linkLibs.rsp

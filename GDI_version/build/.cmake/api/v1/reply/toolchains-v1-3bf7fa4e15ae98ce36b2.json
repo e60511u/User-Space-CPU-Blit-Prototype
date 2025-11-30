@@ -1,0 +1,90 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward",
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include",
+						"C:/EduPython/MinGW/include",
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+						"C:/EduPython/MinGW/mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0",
+						"C:/EduPython/MinGW/lib/gcc",
+						"C:/EduPython/MinGW/mingw32/lib",
+						"C:/EduPython/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/EduPython/MinGW/bin/g++.exe",
+				"version" : "6.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/EduPython/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

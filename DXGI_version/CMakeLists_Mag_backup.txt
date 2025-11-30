@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.16)
+project(DesktopCaptureMagnifier LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Windows subsystem (no console window)
+set(CMAKE_WIN32_EXECUTABLE TRUE)
+
+add_executable(DesktopCaptureMag WIN32 main_magnifier.cpp)
+
+# Link required Windows libraries
+target_link_libraries(DesktopCaptureMag PRIVATE
+    magnification
+    user32
+    gdi32
+    winmm
+)
+
+# Set output directory
+set_target_properties(DesktopCaptureMag PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
+)

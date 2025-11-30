@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build",
+  "command": "C:\\EduPython\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\DesktopCapture.dir\\main.cpp.obj -c \"C:\\Users\\Elève\\Downloads\\Projet\\User-Space CPU Blit Prototype\\main.cpp\"",
+  "file": "C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/main.cpp",
+  "output": "CMakeFiles/DesktopCapture.dir/main.cpp.obj"
+}
+]

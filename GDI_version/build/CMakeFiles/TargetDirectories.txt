@@ -1,0 +1,3 @@
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/DesktopCapture.dir
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/edit_cache.dir
+C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/rebuild_cache.dir

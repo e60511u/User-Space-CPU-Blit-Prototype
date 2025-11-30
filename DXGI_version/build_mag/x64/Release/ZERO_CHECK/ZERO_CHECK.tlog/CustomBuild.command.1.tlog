@@ -1,0 +1,10 @@
+^C:\USERS\ELÈVE\DOWNLOADS\PROJET\USER-SPACE CPU BLIT PROTOTYPE\DXGI_VERSION\BUILD_MAG\CMAKEFILES\9890271A7650647A451EE1AE945AEE24\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version" "-BC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build_mag" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build_mag/DesktopCaptureMagnifier.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

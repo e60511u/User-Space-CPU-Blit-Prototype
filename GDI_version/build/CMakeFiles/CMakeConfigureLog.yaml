@@ -1,0 +1,1880 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/mingw32-make.exe.com"
+    found: "C:/EduPython/MinGW/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/EduPython/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/4.2.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/ar.com"
+    found: "C:/EduPython/MinGW/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/ranlib.com"
+    found: "C:/EduPython/MinGW/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/strip.com"
+    found: "C:/EduPython/MinGW/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/ld.com"
+    found: "C:/EduPython/MinGW/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/nm.com"
+    found: "C:/EduPython/MinGW/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/objdump.com"
+    found: "C:/EduPython/MinGW/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/objcopy.com"
+    found: "C:/EduPython/MinGW/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/readelf.com"
+    found: "C:/EduPython/MinGW/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/dlltool.com"
+    found: "C:/EduPython/MinGW/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/addr2line.com"
+    found: "C:/EduPython/MinGW/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/tapi.com"
+      - "C:/EduPython/MinGW/bin/tapi.exe"
+      - "C:/EduPython/MinGW/bin/tapi"
+      - "D:/VMware/bin/tapi.com"
+      - "D:/VMware/bin/tapi.exe"
+      - "D:/VMware/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/GitHub CLI/tapi.com"
+      - "C:/Program Files/GitHub CLI/tapi.exe"
+      - "C:/Program Files/GitHub CLI/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/EduPython/Microsoft VS Code/bin/tapi.com"
+      - "C:/EduPython/Microsoft VS Code/bin/tapi.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/tapi"
+      - "C:/Users/El\u00e8ve/.deno/bin/tapi.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/tapi.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/tapi"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/tapi.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/tapi.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-6.3"
+      - "gcc-ar-6"
+      - "gcc-ar6"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/gcc-ar-6.3.com"
+      - "C:/EduPython/MinGW/bin/gcc-ar-6.3.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ar-6.3"
+      - "D:/VMware/bin/gcc-ar-6.3.com"
+      - "D:/VMware/bin/gcc-ar-6.3.exe"
+      - "D:/VMware/bin/gcc-ar-6.3"
+      - "C:/Windows/System32/gcc-ar-6.3.com"
+      - "C:/Windows/System32/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/gcc-ar-6.3"
+      - "C:/Windows/gcc-ar-6.3.com"
+      - "C:/Windows/gcc-ar-6.3.exe"
+      - "C:/Windows/gcc-ar-6.3"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3.com"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3"
+      - "C:/Program Files/dotnet/gcc-ar-6.3.com"
+      - "C:/Program Files/dotnet/gcc-ar-6.3.exe"
+      - "C:/Program Files/dotnet/gcc-ar-6.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6.3"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6.3.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6.3.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6.3.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6.3.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6.3"
+      - "C:/EduPython/MinGW/bin/gcc-ar-6.com"
+      - "C:/EduPython/MinGW/bin/gcc-ar-6.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ar-6"
+      - "D:/VMware/bin/gcc-ar-6.com"
+      - "D:/VMware/bin/gcc-ar-6.exe"
+      - "D:/VMware/bin/gcc-ar-6"
+      - "C:/Windows/System32/gcc-ar-6.com"
+      - "C:/Windows/System32/gcc-ar-6.exe"
+      - "C:/Windows/System32/gcc-ar-6"
+      - "C:/Windows/gcc-ar-6.com"
+      - "C:/Windows/gcc-ar-6.exe"
+      - "C:/Windows/gcc-ar-6"
+      - "C:/Windows/System32/wbem/gcc-ar-6.com"
+      - "C:/Windows/System32/wbem/gcc-ar-6.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6"
+      - "C:/Program Files/dotnet/gcc-ar-6.com"
+      - "C:/Program Files/dotnet/gcc-ar-6.exe"
+      - "C:/Program Files/dotnet/gcc-ar-6"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6"
+      - "C:/Program Files/nodejs/gcc-ar-6.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar-6"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar-6"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar-6"
+      - "C:/EduPython/MinGW/bin/gcc-ar6.com"
+      - "C:/EduPython/MinGW/bin/gcc-ar6.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ar6"
+      - "D:/VMware/bin/gcc-ar6.com"
+      - "D:/VMware/bin/gcc-ar6.exe"
+      - "D:/VMware/bin/gcc-ar6"
+      - "C:/Windows/System32/gcc-ar6.com"
+      - "C:/Windows/System32/gcc-ar6.exe"
+      - "C:/Windows/System32/gcc-ar6"
+      - "C:/Windows/gcc-ar6.com"
+      - "C:/Windows/gcc-ar6.exe"
+      - "C:/Windows/gcc-ar6"
+      - "C:/Windows/System32/wbem/gcc-ar6.com"
+      - "C:/Windows/System32/wbem/gcc-ar6.exe"
+      - "C:/Windows/System32/wbem/gcc-ar6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6"
+      - "C:/Program Files/dotnet/gcc-ar6.com"
+      - "C:/Program Files/dotnet/gcc-ar6.exe"
+      - "C:/Program Files/dotnet/gcc-ar6"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar6.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar6.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar6"
+      - "C:/Program Files/Git/cmd/gcc-ar6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar6"
+      - "C:/Program Files/nodejs/gcc-ar6.com"
+      - "C:/Program Files/nodejs/gcc-ar6.exe"
+      - "C:/Program Files/nodejs/gcc-ar6"
+      - "C:/Program Files/GitHub CLI/gcc-ar6.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar6.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar6"
+      - "C:/Program Files/CMake/bin/gcc-ar6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ar6"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar6.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar6.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ar6"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ar6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ar6"
+      - "C:/EduPython/MinGW/bin/gcc-ar.com"
+    found: "C:/EduPython/MinGW/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-6.3"
+      - "gcc-ranlib-6"
+      - "gcc-ranlib6"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6.3.com"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6.3.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6.3"
+      - "D:/VMware/bin/gcc-ranlib-6.3.com"
+      - "D:/VMware/bin/gcc-ranlib-6.3.exe"
+      - "D:/VMware/bin/gcc-ranlib-6.3"
+      - "C:/Windows/System32/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/gcc-ranlib-6.3"
+      - "C:/Windows/gcc-ranlib-6.3.com"
+      - "C:/Windows/gcc-ranlib-6.3.exe"
+      - "C:/Windows/gcc-ranlib-6.3"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3"
+      - "C:/Program Files/dotnet/gcc-ranlib-6.3.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-6.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6.3.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6.3.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6.3.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6.3"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6.3.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6.3.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6.3"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6.com"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib-6"
+      - "D:/VMware/bin/gcc-ranlib-6.com"
+      - "D:/VMware/bin/gcc-ranlib-6.exe"
+      - "D:/VMware/bin/gcc-ranlib-6"
+      - "C:/Windows/System32/gcc-ranlib-6.com"
+      - "C:/Windows/System32/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/gcc-ranlib-6"
+      - "C:/Windows/gcc-ranlib-6.com"
+      - "C:/Windows/gcc-ranlib-6.exe"
+      - "C:/Windows/gcc-ranlib-6"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6"
+      - "C:/Program Files/dotnet/gcc-ranlib-6.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-6.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-6"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib-6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib-6"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib6.com"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib6.exe"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib6"
+      - "D:/VMware/bin/gcc-ranlib6.com"
+      - "D:/VMware/bin/gcc-ranlib6.exe"
+      - "D:/VMware/bin/gcc-ranlib6"
+      - "C:/Windows/System32/gcc-ranlib6.com"
+      - "C:/Windows/System32/gcc-ranlib6.exe"
+      - "C:/Windows/System32/gcc-ranlib6"
+      - "C:/Windows/gcc-ranlib6.com"
+      - "C:/Windows/gcc-ranlib6.exe"
+      - "C:/Windows/gcc-ranlib6"
+      - "C:/Windows/System32/wbem/gcc-ranlib6.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib6.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6"
+      - "C:/Program Files/dotnet/gcc-ranlib6.com"
+      - "C:/Program Files/dotnet/gcc-ranlib6.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib6"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib6.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib6.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6"
+      - "C:/Program Files/nodejs/gcc-ranlib6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib6"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib6.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib6.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib6.com"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib6.exe"
+      - "C:/EduPython/Microsoft VS Code/bin/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/.deno/bin/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/gcc-ranlib6"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib6.com"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib6.exe"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/gcc-ranlib6"
+      - "C:/EduPython/MinGW/bin/gcc-ranlib.com"
+    found: "C:/EduPython/MinGW/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/EduPython/MinGW/bin/"
+      - "D:/VMware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/EduPython/Microsoft VS Code/bin/"
+      - "C:/Users/El\u00e8ve/.deno/bin/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/El\u00e8ve/AppData/Roaming/npm/"
+      - "C:/Users/El\u00e8ve/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/DesktopCapture/bin/"
+      - "C:/Program Files (x86)/DesktopCapture/sbin/"
+      - "C:/Program Files (x86)/DesktopCapture/"
+    searched_directories:
+      - "C:/EduPython/MinGW/bin/windres.com"
+    found: "C:/EduPython/MinGW/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\EduPython\\Microsoft VS Code\\bin"
+        - "C:\\EduPython\\MinGW\\bin"
+        - "C:\\Users\\El\u00e8ve\\.deno\\bin"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Roaming\\npm"
+        - "C:\\Users\\El\u00e8ve\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DesktopCapture"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/DesktopCapture"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/El\u00e8ve/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye"
+      binary: "C:/Users/El\u00e8ve/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/EduPython/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6b0a2/fast
+        C:/EduPython/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6b0a2.dir\\build.make CMakeFiles/cmTC_6b0a2.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/ElÞve/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye'
+        Building CXX object CMakeFiles/cmTC_6b0a2.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\EduPython\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\EduPython\\MinGW\\bin\\g++.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cc0393Tw.s
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
+         c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include
+        End of search list.
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: af09a87986453bf79da3565f33c7648f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cc0393Tw.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/edupython/mingw/bin/../libexec/gcc/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/edupython/mingw/bin/../lib/gcc/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_6b0a2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6b0a2.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\EduPython\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COMPILER_PATH=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/edupython/mingw/bin/../libexec/gcc/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/edupython/mingw/bin/../lib/gcc/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b0a2.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cce3SiL2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_6b0a2.exe c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/edupython/mingw/bin/../lib/gcc -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6b0a2.dir/objects.a --no-whole-archive --out-implib libcmTC_6b0a2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        collect2 version 6.3.0
+        c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cce3SiL2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_6b0a2.exe c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/edupython/mingw/bin/../lib/gcc -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6b0a2.dir/objects.a --no-whole-archive --out-implib libcmTC_6b0a2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.28
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b0a2.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6b0a2.dir/objects.a
+        C:\\EduPython\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_6b0a2.dir/objects.a @CMakeFiles\\cmTC_6b0a2.dir\\objects1.rsp
+        C:\\EduPython\\MinGW\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_6b0a2.dir/objects.a -Wl,--no-whole-archive -o cmTC_6b0a2.exe -Wl,--out-implib,libcmTC_6b0a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/ElÞve/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
+          add: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        end of search list found
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [C:/EduPython/MinGW/include]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
+        collapse include dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include] ==> [C:/EduPython/MinGW/mingw32/include]
+        implicit include dirs: [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include;C:/EduPython/MinGW/include;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/include-fixed;C:/EduPython/MinGW/mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/EduPython/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6b0a2/fast]
+        ignore line: [C:/EduPython/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6b0a2.dir\\build.make CMakeFiles/cmTC_6b0a2.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/ElÞve/Downloads/Projet/User-Space CPU Blit Prototype/build/CMakeFiles/CMakeScratch/TryCompile-pielye']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6b0a2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\EduPython\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\EduPython\\MinGW\\bin\\g++.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cc0393Tw.s]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/edupython/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed]
+        ignore line: [ c:\\edupython\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cc0393Tw.s]
+        ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/edupython/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6b0a2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [Linking CXX executable cmTC_6b0a2.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6b0a2.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\EduPython\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COMPILER_PATH=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/edupython/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b0a2.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cce3SiL2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_6b0a2.exe c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/edupython/mingw/bin/../lib/gcc -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6b0a2.dir/objects.a --no-whole-archive --out-implib libcmTC_6b0a2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+          arg [c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cce3SiL2.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6b0a2.exe] ==> ignore
+          arg [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
+          arg [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
+          arg [-Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0]
+          arg [-Lc:/edupython/mingw/bin/../lib/gcc] ==> dir [c:/edupython/mingw/bin/../lib/gcc]
+          arg [-Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+          arg [-Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_6b0a2.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_6b0a2.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [collect2 version 6.3.0]
+        ignore line: [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/edupython/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ELVE~1\\AppData\\Local\\Temp\\cce3SiL2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_6b0a2.exe c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/edupython/mingw/bin/../lib/gcc -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6b0a2.dir/objects.a --no-whole-archive --out-implib libcmTC_6b0a2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        linker tool for 'CXX': c:/edupython/mingw/mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> [C:/EduPython/MinGW/lib/crt2.o]
+        collapse obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o]
+        collapse obj [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        collapse library dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0]
+        collapse library dir [c:/edupython/mingw/bin/../lib/gcc] ==> [C:/EduPython/MinGW/lib/gcc]
+        collapse library dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [C:/EduPython/MinGW/mingw32/lib]
+        collapse library dir [c:/edupython/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [C:/EduPython/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [C:/EduPython/MinGW/lib/crt2.o;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o;C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        implicit dirs: [C:/EduPython/MinGW/lib/gcc/mingw32/6.3.0;C:/EduPython/MinGW/lib/gcc;C:/EduPython/MinGW/mingw32/lib;C:/EduPython/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "c:/edupython/mingw/mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.28
+...

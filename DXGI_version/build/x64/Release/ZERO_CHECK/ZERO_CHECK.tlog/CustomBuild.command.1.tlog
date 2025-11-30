@@ -1,0 +1,10 @@
+^C:\USERS\ELÈVE\DOWNLOADS\PROJET\USER-SPACE CPU BLIT PROTOTYPE\DXGI_VERSION\BUILD\CMAKEFILES\D55609238D9DF685967E8B304040BE74\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version" "-BC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build/DesktopCaptureDXGI.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

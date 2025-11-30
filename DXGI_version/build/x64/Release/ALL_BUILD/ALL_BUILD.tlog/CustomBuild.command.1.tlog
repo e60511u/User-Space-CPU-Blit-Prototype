@@ -1,0 +1,10 @@
+^C:\USERS\ELÈVE\DOWNLOADS\PROJET\USER-SPACE CPU BLIT PROTOTYPE\DXGI_VERSION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version" "-BC:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build" --check-stamp-file "C:/Users/Elève/Downloads/Projet/User-Space CPU Blit Prototype/DXGI_version/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
